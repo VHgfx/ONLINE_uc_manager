@@ -1,0 +1,217 @@
+@font-face {
+    font-family: "Montserrat Regular";
+    src: url('Montserrat-Regular.ttf') format('truetype');
+}
+
+#h1 {
+    display: none;
+    color: white;
+}
+
+/* .bg {
+    background: url("../img/fond.jpg") no-repeat center center/cover;
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    width: calc(100vw + 60px);
+    height: calc(100vh + 60px);
+    z-index: -1;
+    filter: blur(0px);
+} */
+
+.loading-text {
+    color: #fff;
+    font-size: 50px;
+
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #153C4A!important;
+    font-family: 'Montserrat Regular', sans-serif;
+}
+
+input[type=text],
+input[type=password],
+input[type=mail],
+input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    min-height: 38px;
+    border-radius: 2px;
+    font-size: 1rem;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    font-family: 'Montserrat Regular', sans-serif;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    min-height: 38px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    color: #495057;
+    border-radius: 2px;
+    background-color: #fff;
+    font-size: 1rem;
+    font-family: 'Montserrat Regular', sans-serif;
+}
+/* Boutton rééssayer */
+.validbutton {
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 150px;
+    background-color: #f93100;
+    color: #fff;
+    font-family: 'Arial';
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 8px 30px;
+    transition: all .3s ease;
+    border: none;
+    display: inline-block;
+    margin: 9px 4px;
+    white-space: nowrap;
+    text-transform: none;
+    letter-spacing: 0;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+.validbutton:hover {
+    color: #fcf6ef;
+    background-color: #153C4A;
+    border-color: #153C4A;
+}
+.explain{
+    margin-top : 1.2rem;
+    font-weight: bold;
+    font-style: italic;
+}
+
+input[type=submit] {
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 150px;
+    background-color: #f93100;
+    color: #fff;
+    font-family: 'Arial';
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 8px 30px;
+    transition: all .3s ease;
+    border: none;
+    display: inline-block;
+    margin: 9px 4px;
+    white-space: nowrap;
+    text-transform: none;
+    letter-spacing: 0;
+    cursor: pointer;
+    /* width: 20%; */
+    float: right;
+}
+
+input[type=submit]:hover {
+    color: #fcf6ef;
+    background-color: #153C4A;
+    border-color: #153C4A;
+}
+
+/* Design page de connexion */
+body.count-log {
+    background-image: linear-gradient(rgba(21, 60, 74, 0.9), rgba(21, 60, 74, 0.9)), url(../img/photo_connexion.jpg);
+    background-attachment: fixed;
+}
+
+.container-log h1 {
+    text-align: center;
+    background: #153C4A;
+    color: white !important;
+    padding: 20px 0 !important;
+    font-weight: 800;
+    margin-bottom: 28px;
+    font-size: 1.2em;
+    margin-top: 0;
+}
+
+.form-log {
+    background: white;
+    border: 0 none;
+    border-radius: 3px;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+    padding: 30px 30px;
+    width: 35%;
+    margin: 0 auto;
+    margin-top: 13%;
+    padding-bottom: 52px;
+}
+
+
+/* Design page de question */
+body.count-quest {
+    background-color: rgba(21, 60, 74, 0.9);
+}
+
+.container-quest h1 {
+    text-align: center;
+    color: #153C4A;
+    padding: 20px 0;
+    font-weight: 800;
+    margin-bottom: 28px;
+    font-size: 1.5em;
+    margin-top: 0;
+
+}
+
+.form-quest {
+    background: white;
+    border: 0 none;
+    border-radius: 3px;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+    padding: 30px 30px;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 5%;
+    padding-bottom: 52px;
+}
+
+.accordion-item{
+    margin-top: 40px;
+}
+
+.accordion-button:not(.collapsed){
+    background-color: #153C4A!important;
+    color: white!important;
+}
+
+.accordion-item:first-of-type .accordion-button{
+    background-color: #153C4A!important;
+    color: white!important;
+
+}
+
+#correction{
+  font-weight: normal;
+       font-family: 'Arial', sans-serif !important;
+       font-size: 15px !important;
+       text-align: justify !important;
+       text-justify: inter-word !important;
+}
